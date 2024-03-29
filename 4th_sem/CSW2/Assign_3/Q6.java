@@ -1,3 +1,10 @@
+//	Q6. Write a program to create an Animal class with member variables name,
+//	color, types (pet/wild). Override the hashCode method to print the
+//	unique id for the object. Create the objects of the Animal class and
+//	print its hashcode.
+
+//code
+
 class Animal {
     private String name;
     private String color;
