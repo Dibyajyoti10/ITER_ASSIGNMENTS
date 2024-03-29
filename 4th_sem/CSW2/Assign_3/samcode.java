@@ -1,4 +1,4 @@
-
+// Just a sample code
  class samcode {
 
  }
