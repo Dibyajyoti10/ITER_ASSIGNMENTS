@@ -1,6 +1,9 @@
-//Q1
+//	Q1 Write a program to create a Student class that has members, name, roll
+//	number, and age. Design the Student class in such a way that it can take
+//	the roll number as an integer or string. Create a driver class that creates
+//	student objects and invokes the methods.
 
-
+//code
 class Student{
 	 String name;
 	 String rollno;
