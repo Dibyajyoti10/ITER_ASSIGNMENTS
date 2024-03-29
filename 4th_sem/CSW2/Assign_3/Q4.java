@@ -1,3 +1,10 @@
+//	Q4. Write a program to create a Student class with members name, rn, and
+//	totalMark. Create an array of student objects and search a student object
+//	using linear search from the array.
+//	Note: Overload compareTo method of Comparable interface.
+
+//code
+
 class STUDENT2 implements Comparable <STUDENT2> {
     private String name;
     private int rn;
