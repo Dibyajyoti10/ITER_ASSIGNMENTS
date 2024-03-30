@@ -1,39 +1,44 @@
-//	Q1 Write a program to create a Student class that has members, name, roll
-//	number, and age. Design the Student class in such a way that it can take
-//	the roll number as an integer or string. Create a driver class that creates
-//	student objects and invokes the methods.
+1. Create a generic class Pair<K,V> with private variables key and value. 
+The class Pair should define a parameterised constructor and getter and 
+setter methods for these attributes. After addition of objects, the main
+class should retrieve and print the pair of key and value
+
 
 //code
-class Student{
-	 String name;
-	 String rollno;
-	 int age;
-	
-	public Student(String name, int age, Object rollno) {
-		this.name=name;
-		this.age=age;
-		this.rollno=rollno.toString();
-	}
-	public void displayDetails() {
-		System.out.println("Name of the student is : "+name+ " his roll number is: "+rollno+" and of age: "+age);
-	}
-	
+package Assignment_4_Generics_collections;
+
+class Pair<K, V> {
+    private K key;
+    private V value;
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+    public K getKey() {
+        return key;
+    }
+    public V getValue() {
+        return value;
+    }
+    public void setKey(K key) {
+        this.key = key;
+    }
+    public void setValue(V value) {
+        this.value = value;
+    }
+}
+public class AssignmentQ1 {
+    public static void main(String[] args) {
+        Pair<Integer, String> pair1 = new Pair <>(1, "One");
+        Pair<String, Double> pair2 = new Pair <>("Pi", 3.14);
+        System.out.println("Pair 1: Key = " + pair1.getKey() + ", Value = " + pair1.getValue());
+        System.out.println("Pair 2: Key = " + pair2.getKey() + ", Value = " + pair2.getValue());
+    }
 }
 
 
-public class Q1 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		Student s=new Student("Dibyajyoti",19,52);
-		Student s2=new Student("Amir",19,53);
-		
-		s.displayDetails();
-		s2.displayDetails();
-	}
-
-	
-	
-
-	}
+//output
+Pair 1: Key = 1, Value = One
+Pair 2: Key = Pi, Value = 3.14
