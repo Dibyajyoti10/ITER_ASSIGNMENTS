@@ -11,3 +11,7 @@ public class Q4 {
         System.out.println("main without strings");
     }
     }
+
+//output: main with string[]
+// But if we will comment out the first psvm method above then in output it will show error
+// and show to give psvm(String[]args) as main method
