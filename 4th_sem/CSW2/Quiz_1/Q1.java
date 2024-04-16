@@ -1,7 +1,5 @@
 package Quiz_1;
 
-
-
 class OverloadingCalculation{
 	void sum(int a , int b) {
 		System.out.println("int arg method invoked");
@@ -20,3 +18,6 @@ public class Q1 {
 	}
 
 }
+
+//output:
+//  int arg method invoked
