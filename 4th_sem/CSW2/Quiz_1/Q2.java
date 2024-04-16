@@ -14,7 +14,7 @@ public class Q2 {
 		// TODO Auto-generated method stub
 
 		OverloadingCalculation2 oc= new OverloadingCalculation2();
-		oc.sum(20, 20);  //<--- Error occur here !
+		//oc.sum(20, 20);  //<--- Error occur here !
 	}
 
 }
