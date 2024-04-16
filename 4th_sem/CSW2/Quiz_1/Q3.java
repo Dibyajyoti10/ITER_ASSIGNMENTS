@@ -19,3 +19,6 @@ public class Q3 {
 	}
 
 }
+//output:
+//40
+//60
