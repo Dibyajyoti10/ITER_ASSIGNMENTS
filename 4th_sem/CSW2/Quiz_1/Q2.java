@@ -18,5 +18,6 @@ public class Q2 {
 	}
 
 }
+
 // output:
 // error: The method sum(int, long) is ambiguous for the type OverloadingCalculation
