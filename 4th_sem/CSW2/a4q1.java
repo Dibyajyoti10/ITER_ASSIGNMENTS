@@ -1,11 +1,11 @@
-1. Create a generic class Pair<K,V> with private variables key and value. 
-The class Pair should define a parameterised constructor and getter and 
-setter methods for these attributes. After addition of objects, the main
-class should retrieve and print the pair of key and value
+//1. Create a generic class Pair<K,V> with private variables key and value. 
+//The class Pair should define a parameterised constructor and getter and 
+//setter methods for these attributes. After addition of objects, the main
+//class should retrieve and print the pair of key and value
 
 
 //code
-package Assignment_4_Generics_collections;
+//package Assignment_4_Generics_collections;
 
 class Pair<K, V> {
     private K key;
@@ -28,7 +28,7 @@ class Pair<K, V> {
         this.value = value;
     }
 }
-public class AssignmentQ1 {
+public class a4q1 {
     public static void main(String[] args) {
         Pair<Integer, String> pair1 = new Pair <>(1, "One");
         Pair<String, Double> pair2 = new Pair <>("Pi", 3.14);
@@ -36,9 +36,3 @@ public class AssignmentQ1 {
         System.out.println("Pair 2: Key = " + pair2.getKey() + ", Value = " + pair2.getValue());
     }
 }
-
-
-
-//output
-Pair 1: Key = 1, Value = One
-Pair 2: Key = Pi, Value = 3.14
