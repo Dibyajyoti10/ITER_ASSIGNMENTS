@@ -1,3 +1,9 @@
+//Write a program to create MobleApp to display what is the sim used in the mobile.
+//Note: Tell the student to solve this question using the process of Q1.
+//• Explain the constructors.
+//• Explain types of constructors with suitable examples (parameterized and non-parameterized).
+
+    
 package Assign_1;
 
 class MobileApp {

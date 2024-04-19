@@ -1,3 +1,8 @@
+//Q2)Write a program to create an employee application that supports basic
+//operations like setting employee details and displaying employee details.
+//Note: Tell the student to solve this question using the process of Q1.
+
+    
 package Assign_1;
 
 class Employee {
@@ -45,3 +50,10 @@ public class Q2 {
         System.out.println(emp.getSalary());
     }
 }
+
+
+//output:
+//Dibyajyoti Rautaray
+//18095
+//cse
+//50000.0
