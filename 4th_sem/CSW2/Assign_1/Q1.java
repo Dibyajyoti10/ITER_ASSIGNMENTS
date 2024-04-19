@@ -1,3 +1,16 @@
+//Q1. Write a program to create a bank account application and perform basic
+//operations like withdraw and deposit.
+//Note:
+//– In the above question explain how to design the problem using objectoriented approaches.
+//– In the design part pictorially represent to class Account and BankApp
+//and the respective variable and methods
+//– Explain encapsulation by making data member private and member
+//functions public
+//– Use the set, and get methods
+//– Explain how to override the toString method with proper annotation.
+//– Then implement it using Java
+
+
 package Assign_1;
 
 class account {
