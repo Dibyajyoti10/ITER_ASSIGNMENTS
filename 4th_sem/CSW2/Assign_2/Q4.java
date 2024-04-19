@@ -46,3 +46,7 @@ public class Q4 {
 
     }
 }
+
+// output:
+// The model of the Laptop is: HP G8 Notebook and its price is: 48000
+// The model of the 2nd Laptop is: Macbook Air m3 and its price is: 150000
