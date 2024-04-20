@@ -110,3 +110,9 @@ public class Q6 {
         d.displayDetails();
     }
 }
+
+
+//output
+//The number of pages in the book are: 150
+//The date of issuing the book is: 15-11-2024
+//The duration of taking the book is: 3600 hours.
