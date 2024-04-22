@@ -10,7 +10,7 @@ class CustomNullPointerException extends Exception{
         super(msg);
     }
 }
-public class Q3 {
+public class Q3 { 
     public static void main(String[] args) {
         String str=null;
         try{
