@@ -1,0 +1,38 @@
+// 8. Find if two strings are anagrams, an anagram is a word or phrase formed 
+// by reordering the letters of another word or phrase. Declare two strings 
+// str1 and str2 and initialize. Create a HashMap<Character, Integer>
+// and use methods containsKey() ,put() ,get() to check the strings
+
+import java.util.HashMap;
+
+public class Q8 {
+    public static boolean IsAnagram(String str1,String str2) {
+        if (str1.length() != str2.length()) {
+            return false;
+        }
+        HashMap<Character, Integer> mp1 = makeFreqMap(str1);
+        HashMap<Character, Integer> mp2 = makeFreqMap(str2);
+        return mp1.equals(mp2);
+    }
+    public static HashMap<Character, Integer> makeFreqMap(String str) {
+    HashMap <Character, Integer> mp =new HashMap<>();
+    for(int i=0;i<str.length();i++){
+        char c=str.charAt(i);
+        if(!mp.containsKey(c)){
+            mp.put(c,1);
+        }
+        else{
+           int currcount=mp.get(c);
+           mp.put(c,currcount+1);
+        }
+    }
+    return mp;
+    }
+    public static void main(String[] args) {
+        String str1 = "listen";
+        String str2 = "silent";
+        System.out.println(IsAnagram(str1,str2));
+    }
+}
+
+//output: true
