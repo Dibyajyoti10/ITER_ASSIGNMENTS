@@ -54,3 +54,10 @@ public class Q3 {
         }
     }
 }
+
+
+// output:
+// Address in the TreeMap are:
+// Name: Dibyajyoti , address: Address[plot number = 1A ,at= Jatni ,post= CityA]
+// Name: Rohit , address: Address[plot number = 3C ,at= Mumbai ,post= CityC]
+// Name: Suhani , address: Address[plot number = 2B ,at= Baripada ,post= CityB]
