@@ -1,0 +1,26 @@
+// 9. Given an array of integers, print the repeating integers in the array with 
+// the help of a HashSet.
+
+
+//code
+
+import java.util.HashSet;
+
+public class Q9 {
+    public static void main(String[] args) {
+        int[] arr = {4, 3, 2, 7, 8, 2, 3,7, 1};
+        HashSet<Integer> hs = new HashSet<>();
+        int ans;
+        System.out.println("The duplicate element are-");
+        for(int i:arr){
+            if(!hs.add(i)){
+                ans=i;
+                System.out.print(i+",");
+            }
+        }
+    }
+}
+
+// output:
+// The duplicate element are-
+// 2,3,7,
